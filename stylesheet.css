@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: url("https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/splash.jpg");
+  background-size: cover; /* Prevent the background from appearing "tiled" */
+  background-position: center center; /* Center the background image on the page horizontally and vertically */
+  background-repeat: no-repeat; /* Make sure the background does not tile or repeat */
+  background-attachment: fixed; /* Make sure the background does not scroll with the page */
+  color: white;
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 24px;
+}
+
+input {
+  border: 0;
+  padding: 12px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  color: black;
+  background: limegreen;
+}
